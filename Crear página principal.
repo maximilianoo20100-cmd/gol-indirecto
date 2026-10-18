@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gol Indirecto | Fútbol en vivo</title>
+<meta name="description" content="Resultados, partidos y noticias del fútbol europeo.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b1220;color:#f8fafc;font-family:Arial,sans-serif}
+header{background:#111c30;padding:22px 16px;border-bottom:2px solid #e5b94b}
+.logo{font-size:27px;font-weight:900}
+.logo span{color:#e5b94b}
+header p{color:#cbd5e1;margin-bottom:0}
+nav{display:flex;gap:18px;overflow:auto;padding:15px;background:#162238}
+nav a{color:white;text-decoration:none;white-space:nowrap}
+main{padding:18px;max-width:850px;margin:auto}
+h2{font-size:21px}
+.hero{background:linear-gradient(135deg,#1b3151,#101827);padding:22px;border-radius:14px}
+.hero p,.muted{color:#cbd5e1;line-height:1.6}
+.tag{color:#e5b94b;font-weight:bold}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#17243a;padding:17px;border-radius:12px}
+.card p{color:#cbd5e1;font-size:14px}
+a{color:#e5b94b}
+section{margin:28px 0}
+footer{text-align:center;padding:24px;color:#9ca3af;background:#111c30}
+@media(max-width:420px){.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">⚽ GOL <span>INDIRECTO</span></div>
+  <p>El fútbol, en tiempo real.</p>
+</header>
+<nav>
+  <a href="#vivo">En vivo</a>
+  <a href="#partidos">Partidos</a>
+  <a href="#tabla">Clasificación</a>
+  <a href="#goleadores">Goleadores</a>
+  <a href="#noticias">Noticias</a>
+</nav>
+<main>
+  <div class="hero">
+    <div class="tag">TU PORTAL DE FÚTBOL</div>
+    <h1>Viví cada partido.</h1>
+    <p>Resultados, próximos encuentros y toda la emoción del fútbol europeo en un solo lugar.</p>
+  </div>
+  <section id="vivo">
+    <h2>🔴 Resultados en vivo</h2>
+    <div class="card">
+      <p>Los marcadores automáticos se conectarán en este espacio.</p>
+      <p>Estamos preparando la conexión de datos deportivos.</p>
+    </div>
+  </section>
+  <section id="partidos">
+    <h2>📅 Partidos</h2>
+    <div class="cards">
+      <div class="card"><h3>Champions League</h3><p>Calendario y próximos encuentros.</p></div>
+      <div class="card"><h3>Fútbol europeo</h3><p>Seguí a tus equipos favoritos.</p></div>
+    </div>
+  </section>
+  <section id="tabla">
+    <h2>🏆 Clasificación</h2>
+    <div class="card"><p>Posiciones y puntos de los equipos.</p></div>
+  </section>
+  <section id="goleadores">
+    <h2>⚽ Goleadores</h2>
+    <div class="card"><p>Máximos anotadores de la competición.</p></div>
+  </section>
+  <section id="noticias">
+    <h2>📰 Noticias</h2>
+    <div class="card"><p>Próximamente, novedades del mundo del fútbol.</p></div>
+  </section>
+</main>
+<footer>© Gol Indirecto · Fútbol para todos</footer>
+</body>
+</html>
