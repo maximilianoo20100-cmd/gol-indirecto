@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <title>Gol Indirecto | Fútbol</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101010;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: #181818;
+      padding: 22px 16px;
+      text-align: center;
+      border-bottom: 3px solid #b8ff00;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+      font-weight: 900;
+    }
+    header h1 span { color: #b8ff00; }
+    header p { color: #bbb; margin-bottom: 0; }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      padding: 14px;
+      background: #222;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { color: #b8ff00; }
+    .hero {
+      padding: 35px 18px;
+      text-align: center;
+      background: linear-gradient(135deg, #242424, #111);
+    }
+    .hero h2 { font-size: 28px; margin: 0 0 10px; }
+    .hero p { color: #bbb; }
+    .tag {
+      color: #b8ff00;
+      font-weight: bold;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px 14px;
+    }
+    section { margin-bottom: 28px; }
+    .section-title {
+      border-left: 4px solid #b8ff00;
+      padding-left: 10px;
+      font-size: 21px;
+    }
+    .card {
+      background: #1d1d1d;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 18px;
+      margin: 12px 0;
+    }
+    .muted { color: #aaa; }
+    .score {
+      color: #b8ff00;
+      font-size: 23px;
+      font-weight: bold;
+      text-align: center;
+      margin: 12px 0;
+    }
+    .pill {
+      display: inline-block;
+      background: #b8ff00;
+      color: #111;
+      padding: 5px 9px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      color: #999;
+      background: #181818;
+      padding: 22px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GOL <span>INDIRECTO</span></h1>
+    <p>La pasión por el fútbol, minuto a minuto.</p>
+  </header>
+
+  <nav>
+    <a href="#partidos">Partidos</a>
+    <a href="#tabla">Posiciones</a>
+    <a href="#goleadores">Goleadores</a>
+    <a href="#noticias">Noticias</a>
+  </nav>
+
+  <div class="hero">
+    <div class="tag">TODO EL FÚTBOL EN UN SOLO LUGAR</div>
+    <h2>¡La pelota no para!</h2>
+    <p>Resultados, partidos, tablas y noticias del mundo del fútbol.</p>
+  </div>
+
+  <main>
+    <section id="partidos">
+      <h2 class="section-title">⚽ Partidos y resultados</h2>
+      <div class="card">
+        <span class="pill">DEMO</span>
+        <p class="muted">Champions League</p>
+        <p class="score">Próximamente</p>
+        <p style="text-align:center">Acá mostraremos los partidos y resultados.</p>
+      </div>
+    </section>
+
+    <section id="tabla">
+      <h2 class="section-title">🏆 Tabla de posiciones</h2>
+      <div class="card">
+        Todavía no hay datos cargados.
+        <p class="muted">Próximamente: posiciones actualizadas.</p>
+      </div>
+    </section>
+
+    <section id="goleadores">
+      <h2 class="section-title">🥅 Tabla de goleadores</h2>
+      <div class="card">
+        Próximamente: los máximos goleadores de la competición.
+      </div>
+    </section>
+
+    <section id="noticias">
+      <h2 class="section-title">📰 Noticias</h2>
+      <div class="card">
+        <span class="pill">GOL INDIRECTO</span>
+        <h3>Bienvenidos a nuestra página</h3>
+        <p class="muted">
+          Estamos preparando un espacio para seguir toda la actualidad del fútbol.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>GOL INDIRECTO</strong></p>
+    <p>Hecho para los que viven el fútbol.</p>
+  </footer>
+</body>
+  </html>
+  
